@@ -21,12 +21,12 @@ class Episode extends Component {
 
         return (
 
-            <div className="container"  style={{ flex:' 1 0 auto' }} >
+            <div className="container" style={{ flex: ' 1 0 auto' }} >
                 <br />
                 <br />
                 {/* Guest component is just for rendering our array of objects containing guest data  */}
                 {
-                    this.state.data.map((epi,key) => {
+                    this.state.data.map((epi, key) => {
                         return (
                             <div key={key} className="column is-offset-1">
                                 <h1 className="title">{epi.title}</h1>
@@ -41,7 +41,7 @@ class Episode extends Component {
                     })
                 }
 
-
+              
             </div>
         );
     }

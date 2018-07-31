@@ -14,18 +14,17 @@ class Routers extends Component {
     render() {
         return (
             <Router history={history}>
-             
-                    <section className="hero is-light ">
+                <div className="mainbody">
 
-                        <Header />
-                       
-                            <Route exact path="/" component={Home} />
 
-                            <Route exact path="/episode/:num" component={Episode} />
-                    
-                       
-                    </section>
-          
+                    <Header />
+                    <Route exact path="/" component={Home} />
+
+                    <Route exact path="/episode/:num" component={Episode} />
+
+                    <Footer />
+                </div>
+
             </Router>
         )
     }
