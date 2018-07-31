@@ -1,0 +1,16 @@
+.episodeNumber{
+  display: inline-block;
+    font-size: 28px;
+    background:linear-gradient(to right, #ec008c, #fc6767);
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border-radius: 70px;
+}
+.list:hover{
+  background: #FFFF0A;  /* fallback for old browsers */
+ 
+  
+}
