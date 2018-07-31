@@ -1,40 +1,36 @@
-
-.box{
-    border:2px solid rgb(80, 80, 80);
+.box {
+  border: 2px solid rgb(80, 80, 80);
 }
 
+.nav {
+  display: flex;
 
-  .nav{
-    display:flex;
-  
-   justify-content:space-between;
- 
-    padding: 10px;
+  justify-content: space-between;
+
+  padding: 10px;
+}
+.side2 {
+  display: flex;
+  margin-right: 4%;
+}
+.fcclogo {
+  margin-right: 10px;
+}
+.devlogo {
+  margin-left: 5%;
+}
+@media (max-width: 700px) {
+  .nav {
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
   }
-  .side2{
-    display:flex;
-    margin-right: 4%;
+  .devlogo {
+    margin-left: 0px;
   }
-  .fcclogo{
-      margin-right:10px;
-  }
-  .devlogo{
-      margin-left: 5%;
-  }
-@media(max-width:700px){
-    .nav{
-        
-        justify-content: center;
-        flex-direction:column;
-        align-content: center;
-        align-items: center;
-    }
-    .devlogo{
-        margin-left: 0px;
-    }
 }
 /* 
 .footer{
     height: 100px !important;
 } */
-
