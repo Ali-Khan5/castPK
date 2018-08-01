@@ -9,7 +9,7 @@ import "./style.css";
 class Header extends Component {
   render() {
     return (
-      <div className="nav " style={{ background: "#E8FF34" }}>
+      <div className="nav ">
         <div className=" devlogo">
           <Link to="/">
             <img src={logo} style={{ maxWidth: "290px" }} alt="logo" />
@@ -24,8 +24,7 @@ class Header extends Component {
                 maxWidth: "110px",
                 height: "100px",
                 width: "110px",
-                borderRadius: "20px",
-                border: "2px solid black"
+                borderRadius: "20px"
               }}
               alt="logo"
             />
@@ -37,8 +36,7 @@ class Header extends Component {
                 marginTop: "20px",
                 maxWidth: "110px",
                 height: "100px",
-                borderRadius: "20px",
-                border: "2px solid black"
+                borderRadius: "20px"
               }}
               alt="logo"
             />

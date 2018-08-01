@@ -9,15 +9,14 @@ class Home extends Component {
     return (
       <div>
         <div className="container">
-          <div className="columns">
-            <div className="column is-offset-1">
-              <h1 className="title is-offset-1">Episodes</h1>
+          <div className="row">
+            <div className="column ">
+              <h1 className="title ">Episodes</h1>
               <br />
               {/* to display our episode with the help of our EpisodeList Component */}
               {Data.map((episode, key) => {
                 return (
                   <Link key={key} to={`/episode/01`} params={episode.title}>
-                    {" "}
                     <EpisodeList
                       episodeNum={episode.episode}
                       title={episode.title}

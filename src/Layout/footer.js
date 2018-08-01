@@ -4,12 +4,19 @@ import "../index.css";
 class Footer extends Component {
   render() {
     return (
-      <footer style={{ background: "#E8FF34" }}>
+      <footer>
         <p>
           Made possible through the collaborative efforts of FccKarachi and
           SoftDevPK
         </p>
         <p>Special thanks to Mr.Asad Asif for providing us our Logo </p>
+        <p>
+          Want to fix the site?
+          <a href="https://github.com/Ali-Khan5/castPK">
+            {" "}
+            Send a pull request!
+          </a>
+        </p>
       </footer>
     );
   }

@@ -17,7 +17,6 @@
   margin-right: 10px;
 }
 .devlogo {
-  margin-left: 5%;
 }
 @media (max-width: 700px) {
   .nav {
@@ -30,7 +29,8 @@
     margin-left: 0px;
   }
 }
-/* 
-.footer{
-    height: 100px !important;
-} */
+
+.nav {
+  background: rgb(58, 60, 45);
+  padding: 25px;
+}

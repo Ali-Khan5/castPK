@@ -6,7 +6,7 @@ import Episode from "./Components/Episode";
 import Header from "./Layout/header";
 import Footer from "./Layout/footer";
 import history from "./History";
-
+import "./App.css";
 class Routers extends Component {
   render() {
     return (

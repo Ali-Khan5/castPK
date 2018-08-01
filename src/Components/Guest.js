@@ -6,7 +6,11 @@ class Guest extends Component {
       <div className="columns is-multiline ">
         {this.props.guest.map((data, key) => {
           return (
-            <div key={key} className="column">
+            <div
+              key={key}
+              style={{ textAlign: "center", marginBottom: "30px" }}
+              className="column"
+            >
               <a href={data.social} target="_blank">
                 <img
                   src={data.img}
