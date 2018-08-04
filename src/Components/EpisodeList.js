@@ -5,7 +5,7 @@ import "./style.css";
 class EpisodeList extends Component {
   render() {
     return (
-      <div className="card list">
+      <div className="card list" >
         <div className="card-content">
           <div className="columns ">
             <div className="column is-1 ">

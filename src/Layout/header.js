@@ -12,12 +12,13 @@ class Header extends Component {
       <div className="nav ">
         <div className=" devlogo">
           <Link to="/">
-            <img src={logo} style={{ maxWidth: "290px" }} alt="logo" />
+            <img src={logo}  alt="logo" />
           </Link>
         </div>
         <div className="side2">
           <div className="fcclogo ">
-            <img
+          <a href="https://www.facebook.com/groups/free.code.camp.karachi/"  target="_blank" >
+          <img
               src={FCC}
               style={{
                 marginTop: "20px",
@@ -26,11 +27,13 @@ class Header extends Component {
                 width: "110px",
                 borderRadius: "20px"
               }}
-              alt="logo"
+              alt="Fcc logo"
             />
+            </a>
           </div>
           <div className="">
-            <img
+          <a href="https://www.facebook.com/groups/softdevpk/"  target="_blank" >   
+           <img
               src={SoftDev}
               style={{
                 marginTop: "20px",
@@ -40,6 +43,7 @@ class Header extends Component {
               }}
               alt="logo"
             />
+            </a>
           </div>
         </div>
       </div>

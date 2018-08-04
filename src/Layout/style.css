@@ -16,8 +16,7 @@
 .fcclogo {
   margin-right: 10px;
 }
-.devlogo {
-}
+
 @media (max-width: 700px) {
   .nav {
     justify-content: center;
@@ -29,8 +28,9 @@
     margin-left: 0px;
   }
 }
-
+/* header styling plus size  */
 .nav {
   background: rgb(58, 60, 45);
-  padding: 25px;
+  padding: 15px 25px 15px 25px;
 }
+/* footer's styling is in the index.css file  */
