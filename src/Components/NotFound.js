@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const NotFound = () => (
   <div>
-    <br/>
-    <br/>
+    <br />
+    <br />
     <center>
       <Link to="/">
         <div className="notification is-danger ">
@@ -13,20 +13,14 @@ const NotFound = () => (
             {" "}
             looks like apki bus tower nikal gaye ...{" "}
           </p>
-          <p className="title is-2"> 
-          Waqt pe nikal jana tha na !
-          </p>
-          <p className="title is-2"> 
-            Ab kia karay ?? ...... 
-          </p>
-          <p className="title is-2"> 
-            Ghar chalay ? :/
-          </p>
+          <p className="title is-3">Waqt pe nikal jana tha na !</p>
+          <p className="title is-3">Ab kia karay ?? ......</p>
+          <p className="title is-3">Ghar chalay ? :/</p>
         </div>
       </Link>
     </center>
-    <br/>
-    <br/>
+    <br />
+    <br />
   </div>
 );
 export default NotFound;

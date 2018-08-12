@@ -14,12 +14,7 @@ class Home extends Component {
             <div className="column ">
               <div className="Subscription" id="sub">
                 <div className="notification is-danger ">
-                  <button
-                    className="delete"
-                    onClick={() => {
-                      document.getElementById("sub").style.display = "none";
-                    }}
-                  />
+                
 
                   <a href="http://eepurl.com/dCZSa5" target="_blank">
                     <h3 className="title is-4">

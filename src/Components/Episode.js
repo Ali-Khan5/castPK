@@ -70,7 +70,7 @@ class Episode extends Component {
               <div className="notification is-info">
                 <center>
                   <a
-                    href="https://goo.gl/forms/SzvskjA9FlYr1ill2"
+                    href={epi.feedBackForm}
                     target="_blank"
                   >
                     <h2 className="title is-3">Got Feedback ? Click here </h2>

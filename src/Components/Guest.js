@@ -17,7 +17,7 @@ class Guest extends Component {
                   alt={data.name + " img"}
                   style={{ border: "2px solid orange", borderRadius: "100px" }}
                 />
-                <p style={{ marginLeft: "30px" }}> {data.name} </p>
+                <p> {data.name} </p>
               </a>
             </div>
           );
