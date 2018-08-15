@@ -11,18 +11,20 @@ class Routers extends Component {
   render() {
     return (
       <Router>
-        <div className="mainbody">
+        <div >
           <Header />
+          <div className="pageContentWrapper">
+            <Switch>
+              <Route exact path="/" component={Home} />
 
-          <Switch>
-            <Route exact path="/" component={Home} />
+              <Route exact path="/episode/:num" component={Episode} />
 
-            <Route exact path="/episode/:num" component={Episode} />
-
-            <Route component={NotFound} />
-          </Switch>
-
-          <Footer />
+              <Route component={NotFound} />
+            </Switch>
+         </div>
+         <div className="footer">
+            <Footer />
+          </div>
         </div>
       </Router>
     );

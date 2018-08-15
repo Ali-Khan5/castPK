@@ -3,20 +3,53 @@
   padding: 0;
   font-family: sans-serif;
 }  */
-.mainbody {
+/* .mainbody {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
-footer {
+} */
+/* footer {
   padding: 25px 0px;
   background-color: rgb(58, 60, 45);
   color: white;
   text-align: center;
   font-size: 15px;
+  
+} */
+html{
+  position:relative; 
+  min-height: 100%;
 }
+/*Normalize html and body elements,this style is just good to have*/
+html,body{
+  margin:0;
+  padding:0;
+}
+.pageContentWrapper{
+  margin-bottom:180px;/* Height of footer*/
+} 
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:130px;
+   
+    padding: 17px 0px;
+    background-color: rgb(58, 60, 45) !important;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+
+
 footer a:hover{
  
     color: #28c5ff !important;
-  
+}
+
+@media (max-width:700px){
+  .footer{
+    height:180px;
+  }
 }
