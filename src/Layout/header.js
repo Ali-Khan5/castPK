@@ -17,7 +17,7 @@ class Header extends Component {
         </div>
         <div className="side2">
           <div className="fcclogo ">
-          <a href="https://www.facebook.com/groups/free.code.camp.karachi/"  target="_blank" >
+          <a href="https://www.facebook.com/groups/free.code.camp.karachi/"  target="_blank" rel="noopener noreferrer">
           <img
               src={FCC}
               style={{
@@ -32,7 +32,7 @@ class Header extends Component {
             </a>
           </div>
           <div className="">
-          <a href="https://www.facebook.com/groups/softdevpk/"  target="_blank" >   
+          <a href="https://www.facebook.com/groups/softdevpk/"  target="_blank" rel="noopener noreferrer" >   
            <img
               src={SoftDev}
               style={{

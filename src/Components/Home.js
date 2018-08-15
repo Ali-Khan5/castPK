@@ -16,10 +16,10 @@ class Home extends Component {
                 <div className="notification is-danger ">
                 
 
-                  <a href="http://eepurl.com/dCZSa5" target="_blank">
+                  <a href="http://eepurl.com/dCZSa5" target="_blank" rel="noopener noreferrer">
                     <h3 className="title is-4">
                       {" "}
-                      Get Notified about our Garam Ma Garam{" "}
+                      Get Notified about our Gar Ma Garam{" "}
                       <strong> Episodes </strong> by Clicking here{" "}
                     </h3>
                   </a>

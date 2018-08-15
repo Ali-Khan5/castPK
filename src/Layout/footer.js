@@ -10,16 +10,18 @@ class Footer extends Component {
           <a
             href="https://www.facebook.com/groups/free.code.camp.karachi/"
             target="_blank"
-          > FccKarachi </a> and <a href="https://www.facebook.com/groups/softdevpk/" target="_blank">
+            rel="noopener noreferrer"
+          > FccKarachi </a> and <a href="https://www.facebook.com/groups/softdevpk/" target="_blank" rel="noopener noreferrer">
             SoftDevPK
           </a>
         </p>
         <p>
           {" "}
           Special thanks to{" "}
-          <a
+          <a 
             href="https://www.facebook.com/mohammadasadasif"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Mr.Asad Asif{" "}
           </a>
@@ -27,7 +29,8 @@ class Footer extends Component {
         </p>
         <p>
           Want to fix the site?
-          <a href="https://github.com/Ali-Khan5/castPK">
+          <a href="https://github.com/Ali-Khan5/castPK"
+          rel="noopener noreferrer">
             {" "}
             Send a pull request!
           </a>

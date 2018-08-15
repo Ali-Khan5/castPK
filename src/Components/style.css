@@ -1,7 +1,7 @@
 .episodeNumber {
   display: inline-block;
   font-size: 28px;
-  background: linear-gradient(to right, #ec008c, #fc6767);
+  background: #3d3b3a;
   color: #fff;
   width: 70px;
   height: 70px;
@@ -9,8 +9,12 @@
   text-align: center;
   border-radius: 70px;
 }
+.link{
+  transition: all .2s ease-in-out
+}
 .list:hover {
-  background: #ffff0a; /* fallback for old browsers */
+  background: #56ff89; /* fallback for old browsers */
+  transform: scale(1.1);
 }
 .Subscription {
   display: flex;
@@ -42,10 +46,4 @@
 .is-danger:hover{
   transform: scale(1.1);
 }
-footer {
-  padding: 25px 0px;
-  background-color: rgb(58, 60, 45);
-  color: white;
-  text-align: center;
-  font-size: 18px;
-}
+
