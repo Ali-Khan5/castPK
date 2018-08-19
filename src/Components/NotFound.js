@@ -5,7 +5,6 @@ ReactGA.initialize("UA-124194052-1");
 class NotFound extends Component {
   fireTracking = () => {
     ReactGA.pageview(window.location.pathname);
-   
   };
   componentDidMount() {
     this.fireTracking();
