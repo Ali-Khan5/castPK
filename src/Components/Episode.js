@@ -3,17 +3,23 @@ import { Link } from "react-router-dom";
 import Data from "../EpisodeSource/List.json";
 import Guest from "./Guest";
 // this component will render all the details of the episode
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-124194052-1');
 class Episode extends Component {
   state = {
     data: []
   };
-
+   fireTracking =()=>{
+    ReactGA.pageview(window.location.pathname);
+   
+}
   componentDidMount() {
     //this will get the episode number from the browser and search it in our json file
     const result = Data.filter(
       episode => episode.episode == this.props.match.params.num
     );
     this.setState({ data: result });
+    this.fireTracking();
   }
   render() {
     const { data } = this.state;

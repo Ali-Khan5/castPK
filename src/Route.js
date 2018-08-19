@@ -6,12 +6,13 @@ import NotFound from "./Components/NotFound";
 import Header from "./Layout/header";
 import Footer from "./Layout/footer";
 import history from "./History";
+
 import "./App.css";
 class Routers extends Component {
   render() {
     return (
       <Router>
-        <div >
+        <div>
           <Header />
           <div className="pageContentWrapper">
             <Switch>
@@ -21,8 +22,8 @@ class Routers extends Component {
 
               <Route component={NotFound} />
             </Switch>
-         </div>
-         <div className="footer">
+          </div>
+          <div className="footer">
             <Footer />
           </div>
         </div>
