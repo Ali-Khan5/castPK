@@ -28,6 +28,10 @@
   color: rgb(196, 32, 0) !important;
   transition: all .2s ease-in-out
 }
+
+.is-show{
+  border:2px solid rgb(196, 32, 0) !important;
+}
 .is-info {
   background: white !important;
   border: 2px solid rgb(0, 158, 231);
@@ -46,4 +50,32 @@
 .is-danger:hover{
   transform: scale(1.1);
 }
-
+.is-show a{
+  text-decoration: none !important;
+}
+.is-show:hover{
+  background:rgb(196, 32, 0)!important;
+  color:white !important;
+  cursor: pointer;
+}
+.is-conduct{
+  background: white !important;
+  /* border:2px solid rgb(196, 32, 0); */
+  
+  color: #1d9e06 !important;
+  transition: all .2s ease-in-out;
+  border:2px solid #1d9e06 !important;
+}
+.is-conduct:hover{
+  background:#1d9e06 !important;
+  color:white !important;
+  cursor: pointer;
+}
+.is-conduct a{
+  text-decoration: none !important;
+}
+@media(max-width:700px){
+  .is-conduct{
+    margin: 5px;
+  }
+}

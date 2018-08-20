@@ -59,6 +59,22 @@ class Episode extends Component {
         {data.map((epi, key) => {
           return (
             <div key={key} className="column ">
+            <div className="Subscription " id="sub">
+                <div className="notification  is-danger is-show  ">
+                  <a
+                    href="http://eepurl.com/dCZSa5"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <h3 className="title is-4">
+                      {" "}
+                      Get Notified about our Gar Ma Garam{" "}
+                      <strong> Episodes </strong>{" "}
+                    </h3>
+                  </a>
+                </div>
+              </div>
+              <br/>
               <h1 className="title">{epi.title}</h1>
               <p className="subtitle">{epi.date}</p>
               <iframe

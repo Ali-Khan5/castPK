@@ -8,8 +8,7 @@ ReactGA.initialize("UA-124194052-1");
 // this home component renders the main home page and shows the list of episode
 class Home extends Component {
   fireTracking = () => {
-    ReactGA.pageview(window.location.pathname );
-   
+    ReactGA.pageview(window.location.pathname);
   };
   componentDidMount() {
     this.fireTracking();
@@ -21,16 +20,16 @@ class Home extends Component {
           <div className="row">
             <div className="column ">
               <div className="Subscription" id="sub">
-                <div className="notification is-danger ">
+                <div className="notification  is-conduct">
                   <a
-                    href="http://eepurl.com/dCZSa5"
+                    href="https://goo.gl/forms/mE7fL8zOCyeqsJS43"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     <h3 className="title is-4">
                       {" "}
-                      Get Notified about our Gar Ma Garam{" "}
-                      <strong> Episodes </strong> by Clicking here{" "}
+                      Want to become a conductor with us? Just say 'Double Ay'
+                      and fill the form
                     </h3>
                   </a>
                 </div>
