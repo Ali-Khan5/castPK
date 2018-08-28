@@ -3,10 +3,12 @@ import React, { Component } from "react";
 import EpisodeList from "./EpisodeList";
 import Data from "../EpisodeSource/List.json";
 import { Link } from "react-router-dom";
+//initializes the react-google analytics package 
 import ReactGA from "react-ga";
 ReactGA.initialize("UA-124194052-1");
 // this home component renders the main home page and shows the list of episode
 class Home extends Component {
+  //firetreacking sends the users location to GA
   fireTracking = () => {
     ReactGA.pageview(window.location.pathname);
   };
@@ -41,7 +43,7 @@ class Home extends Component {
               {/* to display our episode with the help of our EpisodeList Component */}
               {Data.map((episode, key) => {
                 return (
-                  <Link key={key} to={`/episode/01`} params={episode.title}>
+                  <Link key={key} to={`/episode/${episode.episode}`} params={episode.title}>
                     <EpisodeList
                       episodeNum={episode.episode}
                       title={episode.title}

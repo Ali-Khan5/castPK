@@ -31,9 +31,9 @@ class Episode extends Component {
           <center>
             <Link to="/">
               <div className="notification is-danger ">
-                <h1 className="title is-2">
+                <h2 className="title is-2">
                   Lagta hai Abhi Episode Release nhi howi!{" "}
-                </h1>
+                </h2>
                 <p className="title is-2">
                   {" "}
                   or Print leak karnay walay pehlay agaye ...{" "}
