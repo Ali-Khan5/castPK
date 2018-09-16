@@ -41,6 +41,7 @@ class Footer extends Component {
             Want to fix the site?
             <a
               href="https://github.com/Ali-Khan5/castPK"
+              target="_blank"
               rel="noopener noreferrer"
             >
               {" "}
