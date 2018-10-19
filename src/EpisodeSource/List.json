@@ -1,5 +1,28 @@
 [
   {
+    "episode": "02",
+    "title":
+      "What is Open Source ? its importance and what is hacktoberfest ? ",
+    "description":
+      "In this episode, we talk with Wajahat Karim who is a Senior Android Developer at Contour Software Pvt Ltd and Ahsan Ayaz who is a Software Architect at Modus Create, Inc  ",
+    "date": "15-10-2018",
+    "panel": [
+      {
+        "name": "Wajahat Karim",
+        "social": "https://wajahatkarim.com/",
+        "img":
+          "https://res.cloudinary.com/devcast-pk/image/upload/c_scale,h_150/v1539787837/40651763_10213448154743909_4998772299621466112_n.jpg"
+      },
+      {
+        "name": "Ahsan Ayaz",
+        "social": "https://twitter.com/ahsan_ayz",
+        "img":
+          "https://res.cloudinary.com/devcast-pk/image/upload/c_scale,h_150/v1539787839/26907944_1683884905002268_2911252962671646494_n.jpg"
+      }
+    ],
+    "soundCloudSRC":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/516640923%3Fsecret_token%3Ds-WA1zP&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+      "feedBackForm":"https://goo.gl/forms/U5bhkhaV5T4COd6F3"
+  },{
     "episode": "01",
     "title":
       "What is DevCast and the state of Frontend Web development in 2018",
