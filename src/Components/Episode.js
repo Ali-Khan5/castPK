@@ -10,7 +10,8 @@ class Episode extends Component {
     data: []
   };
    fireTracking =()=>{
-    ReactGA.pageview(window.location.pathname);
+   
+    ReactGA.pageview(this.props.location.pathname);
    
 }
   componentDidMount() {
@@ -19,6 +20,7 @@ class Episode extends Component {
       episode => episode.episode == this.props.match.params.num
     );
     this.setState({ data: result });
+    
     this.fireTracking();
   }
   render() {

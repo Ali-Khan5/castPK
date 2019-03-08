@@ -42,6 +42,18 @@
   color: white !important;
   cursor: pointer;
 }
+.guestNameStyle{
+  color: rgb(196, 32, 0) ;
+    text-decoration: none;
+    font-weight: bold;
+}
+.guestNameStyle:hover 
+{
+     color:rgb(131, 25, 4) ;
+     text-decoration:none; 
+     font-size: 1.2em;
+     cursor:pointer;  
+}
 /* .is-danger:hover{
   background:rgb(196, 32, 0)!important;
   color:white !important;
