@@ -1,5 +1,37 @@
 [
   {
+    "episode": "04",
+    "title":
+      "What we learned from the month of A.I at Tenpearls Karachi",
+    "description":
+      "In this episode, we talk with the wining team from the month of A.I competition and talk head to head with the director of Tenpearls about A.I",
+    "date": "8-3-2019",
+    "panel": [
+      {
+        "name": "Muhammad Talha Hassan",
+        "social": "https://www.facebook.com/talhahsn",
+        "img":
+          "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_150/v1557473354/Muhammad-Talha-Hassan_qrde77.png"
+      },
+      {
+        "name":"Syed Umar Usman ",
+        "social":"https://www.facebook.com/umar.usman.58958",
+        "img":
+          "https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_150/v1557473334/Syed-Umar-Usman_f3akis.png"
+      },{
+        "name":"Hamza Shahid",
+        "social":"https://www.facebook.com/Bunny.9997",
+        "img":"  https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_150/v1557473345/Hamza-Shahid_w2wa5u.png"
+      }
+      ,{
+        "name":"Danish Hameed",
+        "social":"https://www.linkedin.com/in/danishhameed",
+        "img":"https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_150,w_150/v1557473364/danish-hameed_exyqxq.jpg"
+      }
+    ],
+    "soundCloudSRC":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/618283938%3Fsecret_token%3Ds-mkvKG&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+      "feedBackForm":"https://forms.gle/rCkYu3pfizXyLeep7"
+  },{
     "episode": "03",
     "title":
       "Women in tech: breaking the stereotypes ",
