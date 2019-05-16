@@ -3,24 +3,22 @@ import { Link } from "react-router-dom";
 import Data from "../EpisodeSource/List.json";
 import Guest from "./Guest";
 // this component will render all the details of the episode
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-124194052-1');
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-124194052-1");
 class Episode extends Component {
   state = {
     data: []
   };
-   fireTracking =()=>{
-   
+  fireTracking = () => {
     ReactGA.pageview(this.props.location.pathname);
-   
-}
+  };
   componentDidMount() {
     //this will get the episode number from the browser and search it in our json file
     const result = Data.filter(
       episode => episode.episode == this.props.match.params.num
     );
     this.setState({ data: result });
-    
+
     this.fireTracking();
   }
   render() {
@@ -61,7 +59,7 @@ class Episode extends Component {
         {data.map((epi, key) => {
           return (
             <div key={key} className="column ">
-            <div className="Subscription " id="sub">
+              <div className="Subscription " id="sub">
                 <div className="notification  is-danger is-show  ">
                   <a
                     href="http://eepurl.com/dCZSa5"
@@ -76,27 +74,39 @@ class Episode extends Component {
                   </a>
                 </div>
               </div>
-              <br/>
+              <br />
               <h1 className="title">{epi.title}</h1>
               <p className="subtitle">{epi.date}</p>
-              <iframe
-                width="100%"
-                height="166"
-                scrolling="no"
-                frameBorder="no"
-                allow="autoplay"
-                src={epi.soundCloudSRC}
-              />
+              {epi.soundCloudSRC ? (
+                <iframe
+                  width="100%"
+                  height="166"
+                  scrolling="no"
+                  frameBorder="no"
+                  allow="autoplay"
+                  src={epi.soundCloudSRC}
+                />
+              ) : null}
+              {epi.YouTubeSrc ? (
+                <div className="embed-container">
+                  <iframe
+                    width="full"
+                    height="315"
+                    src={epi.YouTubeSrc}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  />
+                </div>
+              ) : null}
+
               <br />
               <p className="subtitle">{epi.description}</p>
               <br />
 
               <div className="notification is-info">
                 <center>
-                  <a
-                    href={epi.feedBackForm}
-                    target="_blank"
-                  >
+                  <a href={epi.feedBackForm} target="_blank">
                     <h2 className="title is-3">Got Feedback ? Click here </h2>
                   </a>
                 </center>
@@ -105,6 +115,19 @@ class Episode extends Component {
               <h1 className="title">Participants</h1>
               <br />
               <Guest guest={epi.panel} />
+              <br />
+              <div className="  is-fullwidth is-medium ">
+                <a
+                    href="https://www.youtube.com/channel/UCeBtLwe9YHygwluemBzKJlA?"
+                    target="_blank"
+                    rel="noopener noreferrer">
+              <button className="button is-redish is-fullwidth ">
+                Subscribe to our <i style={{padding:'0px 5px'}} className="fab fa-youtube" /> Youtube
+                Channel
+              </button>
+              </a>
+              </div>
+              <br/>
             </div>
           );
         })}

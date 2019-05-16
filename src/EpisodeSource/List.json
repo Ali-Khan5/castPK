@@ -29,7 +29,8 @@
         "img":"https://res.cloudinary.com/dcw1i97ph/image/upload/c_scale,h_150,w_150/v1557473364/danish-hameed_exyqxq.jpg"
       }
     ],
-    "soundCloudSRC":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/618283938%3Fsecret_token%3Ds-mkvKG&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+    "soundCloudSRC":"",
+    "YouTubeSrc":"https://www.youtube.com/embed/jxRLOes6y8A",
       "feedBackForm":"https://forms.gle/rCkYu3pfizXyLeep7"
   },{
     "episode": "03",
@@ -108,7 +109,8 @@
           "http://res.cloudinary.com/devcast-pk/image/upload/c_scale,h_150,w_150/v1532990522/hasan.png"
       }
     ],
-    "soundCloudSRC":"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/484660320%3Fsecret_token%3Ds-NAvhh&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true",
+    "soundCloudSRC":"",
+      "YouTubeSrc":"https://www.youtube.com/embed/_jvJQS4m284",
       "feedBackForm":"https://goo.gl/forms/DU4IUnwbhh2tBO4H3"
   }
 ]

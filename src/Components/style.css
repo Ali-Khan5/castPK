@@ -1,3 +1,20 @@
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 70%;
+}
+
 .episodeNumber {
   display: inline-block;
   font-size: 28px;
@@ -9,8 +26,8 @@
   text-align: center;
   border-radius: 70px;
 }
-.link{
-  transition: all .2s ease-in-out
+.link {
+  transition: all 0.2s ease-in-out;
 }
 .list:hover {
   background: #56ff89; /* fallback for old browsers */
@@ -24,13 +41,13 @@
 .is-danger {
   background: white !important;
   /* border:2px solid rgb(196, 32, 0); */
-  
+
   color: rgb(196, 32, 0) !important;
-  transition: all .2s ease-in-out
+  transition: all 0.2s ease-in-out;
 }
 
-.is-show{
-  border:2px solid rgb(196, 32, 0) !important;
+.is-show {
+  border: 2px solid rgb(196, 32, 0) !important;
 }
 .is-info {
   background: white !important;
@@ -42,52 +59,71 @@
   color: white !important;
   cursor: pointer;
 }
-.guestNameStyle{
-  color: rgb(196, 32, 0) ;
-    text-decoration: none;
-    font-weight: bold;
+.guestNameStyle {
+  color: rgb(196, 32, 0);
+  text-decoration: none;
+  font-weight: bold;
 }
-.guestNameStyle:hover 
-{
-     color:rgb(131, 25, 4) ;
-     text-decoration:none; 
-     font-size: 1.2em;
-     cursor:pointer;  
+.guestNameStyle:hover {
+  color: rgb(131, 25, 4);
+  text-decoration: none;
+  font-size: 1.2em;
+  cursor: pointer;
 }
 /* .is-danger:hover{
   background:rgb(196, 32, 0)!important;
   color:white !important;
   cursor: pointer;
 } */
-.is-danger:hover{
+.is-danger:hover {
   transform: scale(1.1);
 }
-.is-show a{
+/* .is-redish a{
+  
+  color:rgb(196, 32, 0) !important;
+  font-size: 20px;
+
+}
+
+.is-redish a:hover{
+  color: white !important;
+} */
+.is-redish{
+  color:rgb(196, 32, 0) !important;
+  border:2px solid rgb(196, 32, 0) !important;
+  
+}
+.is-redish:hover{
+ 
+  background: rgb(196, 32, 0) !important;
+  color: white !important;
+}
+.is-show a {
   text-decoration: none !important;
 }
-.is-show:hover{
-  background:rgb(196, 32, 0)!important;
-  color:white !important;
+.is-show:hover {
+  background: rgb(196, 32, 0) !important;
+  color: white !important;
   cursor: pointer;
 }
-.is-conduct{
+.is-conduct {
   background: white !important;
   /* border:2px solid rgb(196, 32, 0); */
-  
+
   color: #1d9e06 !important;
-  transition: all .2s ease-in-out;
-  border:2px solid #1d9e06 !important;
+  transition: all 0.2s ease-in-out;
+  border: 2px solid #1d9e06 !important;
 }
-.is-conduct:hover{
-  background:#1d9e06 !important;
-  color:white !important;
+.is-conduct:hover {
+  background: #1d9e06 !important;
+  color: white !important;
   cursor: pointer;
 }
-.is-conduct a{
+.is-conduct a {
   text-decoration: none !important;
 }
-@media(max-width:700px){
-  .is-conduct{
+@media (max-width: 700px) {
+  .is-conduct {
     margin: 5px;
   }
 }
